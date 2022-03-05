@@ -213,15 +213,20 @@ hr:hover{
 footer{
   /* width: 483px;
   height: 213px;
-  Top:374px;
+  
   Left:475px; */
+  margin:50px 0;
+  /* margin: 0 auto; */
+}
+.footer-section{
+  margin: 0 auto;
   display: block;
   width: 20%;
-  margin: 0 auto;
 }
-footer > img {
-  width: 70%;
+.footer-section> img{
+width: 70%;
 }
+
 .fotter-img{
 
   text-align: center;

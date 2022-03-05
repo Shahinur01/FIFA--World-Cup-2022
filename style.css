@@ -1,0 +1,131 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,400;1,500&display=swap');
+
+
+*{
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/*========================top section part start===================
+================================================================  */
+
+/* link button start */
+
+  
+  a{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #10437A;
+    border: 2px solid red;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all 1s;
+  }
+  .fa-solid{
+    padding-left: 8px;
+  }
+  a span  {
+    position: relative;
+    z-index: 2;
+  }
+  
+  a:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #10437A;
+    transition: all .35s;
+  }
+  
+  a:hover{
+    color: #fff;
+  }
+  
+  a:hover:after{
+    width: 100%;
+  }
+/* link button end */
+
+
+#top-section{
+    background-color: #2D25A0;
+    Width:100%;
+    Height:677px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.left-banner{
+    Width:485px;
+    Height:230px;
+    margin-top:207px;
+    margin-left:156px;
+    color: #fff;
+}
+.left-banner h1{
+    font-size:64px;
+    font-weight: 700;
+    margin-bottom: 27px;
+}
+.banner-img img{
+    Width:556.01px;
+    Height:438px;
+    margin-top:153px;
+    margin-bottom: 86px;
+}
+.link-btn{
+    background-color:#E02C6D;
+    color:white;
+    padding: 10px 24px;
+    margin-top: 27px;
+
+}
+/* ====================top section part end========================= */
+
+/* ===========================================
+            Images gallery section part start
+================================================*/
+.img-gallery img{
+    width: 250px;
+    height:200px;
+
+}
+#container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 70px;
+    margin-left: 180px;
+    margin-right: 210px;
+    grid-gap: 30px;
+}
+.images{
+    box-shadow: 10px 10px 5px 10px rgba(0, 0, 0, 0.15);
+    padding: 30px;
+   border-radius: 10px;
+}
+.images:hover{
+    background-color: #fff;
+}
+.title-name h3{
+    font-weight: 700;
+    font-size:28px;
+}
+.detail p{
+    margin-top:10px;
+    font-size: 16px;
+}
+
+/* ===========================================
+            Images gallery section part end
+================================================*/
